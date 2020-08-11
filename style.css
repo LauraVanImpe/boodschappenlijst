@@ -1,0 +1,28 @@
+/* tag selectors */ 
+
+body {
+    font-family: sans-serif;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+td {
+    border: 1px solid #888;
+    padding: 10px;
+}
+
+thead {
+    text-align: left;
+}
+
+
+/* class and ID selectors */ 
+ 
+.productPrice,
+.productQuantity,
+.productTotalCost,
+#totalCost {
+    text-align: right;
+}
